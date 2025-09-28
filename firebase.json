@@ -1,0 +1,29 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "covid-tracker-37508",
+          "appId": "1:260211680521:android:cdc8721e613dbedccd1fd8",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "covid-tracker-37508",
+          "configurations": {
+            "android": "1:260211680521:android:cdc8721e613dbedccd1fd8",
+            "ios": "1:260211680521:ios:34114e963020de99cd1fd8",
+            "macos": "1:260211680521:ios:34114e963020de99cd1fd8",
+            "web": "1:260211680521:web:0c6305c8c0cfcf7ecd1fd8",
+            "windows": "1:260211680521:web:f7707b29ceefb46ccd1fd8"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

@@ -1,0 +1,51 @@
+name: covid_tracker_manari3
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.2
+  cloud_firestore: ^4.8.4
+  google_maps_flutter: ^2.3.0
+  location: ^4.4.0
+  geolocator: ^8.2.1
+  shared_preferences: ^2.5.3 
+  flutter_local_notifications: ^19.1.0
+  dialog_flowtter: ^0.2.0-nullsafety.0
+  bubble: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/person_bleu.jpeg
+    - assets/images/person_green.jpeg
+    - assets/images/person_red.jpg
+    - assets/images/feedback_icon.jpg
+    - assets/images/covid.jpeg
+    - assets/images/covid19.jpeg
+    - assets/images/doctor.jpeg
+    - assets/covidtrackermanari.json
+
+
+
+
+
+
+
+
+
+
+
